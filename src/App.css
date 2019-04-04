@@ -1,0 +1,81 @@
+.App {
+  text-align: center;
+  font-family: "Georgia";
+  font-style: italic;
+  color: black;
+}
+
+.kelpy {
+  height:  22vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  font-size: calc(10px + 3vmin);
+  color: #d11400;
+}
+
+.root {
+  color: #FD9D54;
+  background-color: white;
+  border: 2px solid #FD9D54;
+  border-radius: 2px;
+  font-family: "Georgia";
+  font-style: italic;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 8px 15px;
+}
+
+.accidental {
+  color: #FD9D54;
+  background-color: white;
+  border: 2px solid #FD9D54;
+  border-radius: 2px;
+  font-family: "Georgia";
+  font-style: italic;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 5px 15px;
+}
+
+.check {
+  color: #135d0c;
+  background-color: white;
+  border: 2px solid #135d0c;
+  border-radius: 2px;
+  font-family: "Georgia";
+  font-style: italic;
+  font-weight: bold;
+  padding: 10px 24px;;
+}
+
+body {
+  text-align: center;
+  background-color: #d0f5e5;
+  font-family: "Georgia";
+  font-style: italic;
+  color: #d11400;
+}
+
+h1 {
+    font-size: calc(10px + 3vmin);
+}
+
+h3 {
+    font-size: calc(10px);
+}
+
+h5 {
+    font-size: calc(10px + 2vmin);
+    color: #135d0c;
+    margin-top: 1.8em;
+    margin-bottom: 1.8em;
+}
+
+h6 {
+    font-size: calc(10px + 2vmin);
+    color: #d11400;
+    margin-top: 1.8em;
+    margin-bottom: 1.8em;
+}
