@@ -30,9 +30,8 @@ class App extends Component {
             <button class="root">B</button>
             <br></br>
             <br></br>
-            <button class="accidental">♭</button>
-            <button class="accidental">♮</button>
-            <button class="accidental">♯</button>
+            <button class="accidental">b</button>
+            <button class="accidental">#</button>
            </h3>
           <h2>
             <button class="check">check</button>

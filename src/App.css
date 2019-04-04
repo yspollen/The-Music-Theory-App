@@ -24,7 +24,7 @@
   font-style: italic;
   font-weight: bold;
   font-size: 16px;
-  padding: 8px 15px;
+  padding: 8px 10px;
 }
 
 .accidental {
@@ -36,7 +36,7 @@
   font-style: italic;
   font-weight: bold;
   font-size: 16px;
-  padding: 5px 15px;
+  padding: 8px 10px;
 }
 
 .check {
@@ -64,6 +64,11 @@ h1 {
 
 h3 {
     font-size: calc(10px);
+}
+
+h4 {
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
 }
 
 h5 {
