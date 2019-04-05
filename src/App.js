@@ -47,7 +47,7 @@ class App extends Component {
         </header>
         <div>
           <h3 id="givenNote">
-            {givenNoteString}{givenAccidentalString}
+            {givenAccidentalString}{givenNoteString}
           </h3>
           <h2 id="givenRoot">
             {givenRootString}
@@ -72,9 +72,12 @@ class App extends Component {
           </h5>
           <h5 id="no">
           </h5>
-          <h5 id="br"><br></br>
+          <h5 id="br">
+            <br></br>
           </h5>
-          <h6><br></br><br></br></h6>
+          <h6><br>
+            </br><br>
+          </br></h6>
         </div>
       </div>
     );
@@ -268,7 +271,7 @@ function note(id) {
       document.getElementById("no").innerHTML = "";
       init();
       document.getElementById("givenRoot").innerHTML = givenRootString;
-      document.getElementById("givenNote").innerHTML = givenNoteString+givenAccidentalString;
+      document.getElementById("givenNote").innerHTML = givenAccidentalString+givenNoteString;
     }
     else if (correct === 0) {
       document.getElementById("si").innerHTML = "";

@@ -46,6 +46,7 @@ h5 {
 
 h6 {
   font-size: calc(5.8px + 1vmin);
+  margin-bottom: 6.9em;
 }
 
 .note {
@@ -83,7 +84,7 @@ h6 {
   font-family: "Georgia";
   font-style: italic;
   font-weight: bold;
-  padding: 10px 24px;;
+  padding: 10px 24px;
 }
 
 #si {
