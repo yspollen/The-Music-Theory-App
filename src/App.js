@@ -244,10 +244,18 @@ function note(id) {
         accidental = 0;
     }
     chosenPitch += accidental;
+    chosenPitch = chosenPitch%12;
   };
 
   function check(id){
-    chosenPitch = chosenPitch%12;
+    if (givenPitch <= -1) {
+      givenPitch += 12;
+    }
+
+    if (chosenPitch <= -1) {
+      chosenPitch += 12;
+    }
+
     if (chosenPitch === givenPitch) {
       correct = 1;
     }
@@ -256,7 +264,6 @@ function note(id) {
     }
 
     if (correct === 1) {
-      console.log("sí, correcto");
       document.getElementById("si").innerHTML = "sí, correcto";
       document.getElementById("no").innerHTML = "";
       init();
@@ -264,7 +271,6 @@ function note(id) {
       document.getElementById("givenNote").innerHTML = givenNoteString+givenAccidentalString;
     }
     else if (correct === 0) {
-      console.log("no, incorrecto");
       document.getElementById("si").innerHTML = "";
       document.getElementById("no").innerHTML = "no, incorrecto";
     }
