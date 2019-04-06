@@ -2,7 +2,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## App Demo
 
-![Demo](https://github.com/yspollen/The-Music-Theory-App/blob/master/src/TMTA%20Demo.jpg?raw=true "Demo")
+![demo](https://github.com/yspollen/The-Music-Theory-App/blob/master/demo.jpg?raw=true "demo")
 
 ## Available Scripts
 
