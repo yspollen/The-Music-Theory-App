@@ -1,5 +1,9 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## App Demo
+
+![Demo](https://github.com/yspollen/The-Music-Theory-App/blob/master/src/TMTA%20Demo.jpg?raw=true "Demo")
+
 ## Available Scripts
 
 In the project directory, you can run:
