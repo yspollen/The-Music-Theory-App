@@ -1,11 +1,10 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Try It Out!
-https://master.d3rkvbjpv99e22.amplifyapp.com/
-
 ## App Demo
 
 ![demo](https://github.com/yspollen/The-Music-Theory-App/blob/master/demo.jpg?raw=true "demo")
+
+## Try It Out!
+
+https://master.d3rkvbjpv99e22.amplifyapp.com/
 
 ## Available Scripts
 
