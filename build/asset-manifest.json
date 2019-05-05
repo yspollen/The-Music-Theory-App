@@ -1,14 +1,14 @@
 {
-  "main.css": "/static/css/main.c9c0704d.chunk.css",
-  "main.js": "/static/js/main.9d682d59.chunk.js",
-  "main.js.map": "/static/js/main.9d682d59.chunk.js.map",
+  "main.css": "/static/css/main.505b7cb8.chunk.css",
+  "main.js": "/static/js/main.a95849e2.chunk.js",
+  "main.js.map": "/static/js/main.a95849e2.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
   "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
   "static/js/2.6efc73d3.chunk.js": "/static/js/2.6efc73d3.chunk.js",
   "static/js/2.6efc73d3.chunk.js.map": "/static/js/2.6efc73d3.chunk.js.map",
   "index.html": "/index.html",
-  "precache-manifest.c7ce1046bb1945e9c758fa2be3317c8e.js": "/precache-manifest.c7ce1046bb1945e9c758fa2be3317c8e.js",
+  "precache-manifest.38627bfa93067e3df6a4da0d1ed0ebed.js": "/precache-manifest.38627bfa93067e3df6a4da0d1ed0ebed.js",
   "service-worker.js": "/service-worker.js",
-  "static/css/main.c9c0704d.chunk.css.map": "/static/css/main.c9c0704d.chunk.css.map",
-  "static/media/kelpy.png": "/static/media/kelpy.c3df38dd.png"
+  "static/css/main.505b7cb8.chunk.css.map": "/static/css/main.505b7cb8.chunk.css.map",
+  "static/media/kelpy.png": "/static/media/kelpy.66344d96.png"
 }
