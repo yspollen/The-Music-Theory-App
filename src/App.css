@@ -6,6 +6,7 @@
   background-color: #d0f5e5;
   background-size: cover;
   overflow: auto;
+  height: 100%;
 }
 
 .App-header {
