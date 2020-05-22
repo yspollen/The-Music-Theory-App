@@ -267,9 +267,6 @@ function note(id) {
       chosenPitch += 12;
     }
 
-    console.log(givenPitch);
-    console.log(chosenPitch);
-
     if (chosenPitch === givenPitch) {
       correct = 1;
     }
