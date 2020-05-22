@@ -3,7 +3,7 @@ import kelpy from './kelpy.png';
 import './App.css';
 
 const roots = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
-const notes = [0, 4, 7, 11];
+const notes = [2, 4, 5, 7, 9, 11];
 const accidentals = [-1, 0, 1];
 
 var givenRoot;
@@ -85,8 +85,8 @@ class App extends Component {
 }
 
 function init(){
-  givenRoot = Math.floor((Math.random() * 17));
-  givenNote = Math.floor((Math.random() * 4));
+  givenRoot = Math.floor((Math.random() * 12));
+  givenNote = Math.floor((Math.random() * 6));
   givenAccidental = Math.floor((Math.random() * 3));
   newNote();
   toGivenStrings();
@@ -150,59 +150,67 @@ function toGivenStrings(){
 
   switch (givenNote) {
     case 0:
-      givenNoteString = "I";
+      givenNoteString = "2";
       break;
     case 1:
-      givenNoteString = "III";
+      givenNoteString = "3";
       break;
     case 2:
-      givenNoteString = "V";
+      givenNoteString = "4";
       break;
     case 3:
-      givenNoteString = "VII";
+      givenNoteString = "5";
+      break;
+    case 4:
+      givenNoteString = "6";
+      break;
+    case 5:
+      givenNoteString = "7";
       break;
     default:
   }
 
   switch (givenAccidental) {
     case 0:
-      givenAccidentalString = "b";
+      givenAccidentalString = "\u266D";
       break;
     case 1:
       givenAccidentalString = "";
       break;
     case 2:
-      givenAccidentalString = "#";
+      givenAccidentalString = "\u266f";
       break;
     default:
   }
 }
 
 function newNote() {
-    givenRoot = Math.floor((Math.random() * 17));
-    givenNote = Math.floor((Math.random() * 4));
-    givenAccidental = Math.floor((Math.random() * 3));
-    var givenRootConvert;
-    switch (givenRoot) {
-      case 12:
-        givenRootConvert = 1;
+    givenRoot = Math.floor((Math.random() * 12));
+    givenNote = Math.floor((Math.random() * 6));
+    
+    switch (givenNote) {
+      case 0:
+        givenAccidental = 1;
         break;
-      case 13:
-        givenRootConvert = 3;
+      case 1:
+        givenAccidental = Math.floor((Math.random() * 2));
         break;
-      case 14:
-        givenRootConvert = 6;
+      case 2:
+        givenAccidental = 1;
         break;
-      case 15:
-        givenRootConvert = 8;
+      case 3:
+        givenAccidental = Math.floor((Math.random() * 2) + 1);
         break;
-      case 16:
-        givenRootConvert = 10;
+      case 4:
+        givenAccidental = 1;
+        break;
+      case 5:
+        givenAccidental = Math.floor((Math.random() * 2));
         break;
       default:
-        givenRootConvert = givenRoot;
-      }
-    givenPitch = (roots[givenRootConvert] + notes[givenNote] + accidentals[givenAccidental])%12;
+    }
+
+    givenPitch = (roots[givenRoot] + notes[givenNote] + accidentals[givenAccidental])%12;
 };
 
 function note(id) {
@@ -258,6 +266,9 @@ function note(id) {
     if (chosenPitch <= -1) {
       chosenPitch += 12;
     }
+
+    console.log(givenPitch);
+    console.log(chosenPitch);
 
     if (chosenPitch === givenPitch) {
       correct = 1;
